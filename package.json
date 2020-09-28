@@ -1,0 +1,27 @@
+{
+  "name": "thinksql",
+  "version": "1.0.0",
+  "description": "修改 think-model 作为可以独立引用后的mysql连接查询工具类，脱离thinkjs框架使用，作为处理小程序时使用。",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrunlee/thinksql.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrunlee/thinksql/issues"
+  },
+  "homepage": "https://github.com/chrunlee/thinksql#readme",
+  "dependencies": {
+    "think-helper": "^1.1.2",
+    "think-model-abstract": "^1.6.4",
+    "think-model-mysql": "^1.1.4"
+  }
+}

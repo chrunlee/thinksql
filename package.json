@@ -1,6 +1,6 @@
 {
   "name": "thinksql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "修改 think-model 作为可以独立引用后的mysql连接查询工具类，脱离thinkjs框架使用，作为处理小程序时使用。",
   "main": "index.js",
   "directories": {

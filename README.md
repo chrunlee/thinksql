@@ -17,9 +17,9 @@ npm install thinksql
 # 使用
 ```
 //引入
-let model = require('thinksql');
-//配置数据库
-model({
+let thinksql = require('thinksql');
+//配置数据库返回实例
+let model = thinksql({
     database: '',
     prefix: '',
     encoding: 'utf8mb4',
